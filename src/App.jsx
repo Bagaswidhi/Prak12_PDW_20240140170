@@ -107,12 +107,9 @@ const skills = [
             </a>
           </div>
         </div>
-{/* Bagian Foto Profil dengan Efek Hover Baru */}
         <div className="flex-1 flex justify-center relative group">
-          {/* Efek Blur Latar Belakang (Tetap) */}
           <div className="absolute w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-tr from-blue-600 to-cyan-400 opacity-20 blur-3xl z-0 transition-opacity duration-500 group-hover:opacity-30"></div>
           
-          {/* ✅ KONTENER FOTO PROFIL DENGAN EFEK HOVER (LIFT & GLOW) */}
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-3xl bg-slate-900 border border-slate-800 flex items-center justify-center shadow-2xl relative overflow-hidden z-10 
                         transition-all duration-500 ease-out 
                         group-hover:-translate-y-4 group-hover:scale-[1.02] 
@@ -172,7 +169,7 @@ const skills = [
         </div>
       </section>
 
-{/* 5. gallery / PHOTOGRAPHY SECTION (DIUBAH MENJADI SLIDER) */}
+  {/* 5. gallery / PHOTOGRAPHY SECTION (DIUBAH MENJADI SLIDER) */}
       <section id="gallery" className="max-w-6xl mx-auto px-6 py-20 border-t border-slate-900">
         <div className="text-center max-w-xl mx-auto mb-12 space-y-2">
           <h3 className="text-3xl font-bold tracking-tight">Gallery</h3>
